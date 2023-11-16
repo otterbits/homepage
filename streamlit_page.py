@@ -6,3 +6,6 @@ view
 st.write('## bar chart')
 st.bar_chart(view)
 
+import pandas as pd
+sview = pd.Series(view)
+sview
