@@ -1,12 +1,12 @@
 import streamlit as st
 import numpy as np
-
-st.title('Welcome to :rainbow[Otterbit] world')
+st.markdown("<h1 style='text-align: center; color: green;'>Otterbit world</h1>", unsafe_allow_html=True)
 st.write('## coding is very :red[_awesome_] :sunglasses:')
 
 st.divider()
 st.link_button("youtube", "https://www.youtube.com/@racoonByteotterBit/")
 tab1, tab2, tab3= st.tabs(["INTRO", "PROJECT", "STUDY"])
+
 
 with tab1:
    st.write("### hello otter!")
