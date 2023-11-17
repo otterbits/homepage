@@ -16,8 +16,12 @@ with tab1:
 
 with tab2:
    st.write("### working hard with communication")
-   st.video('https://youtu.be/trS7V4g_8QI?feature=shared', format='video/mp4')
+   with col1:
+      st.video('https://youtu.be/trS7V4g_8QI?feature=shared', format='video/mp4')
+   with col2:
+      st.video('https://youtu.be/NlOsPCwWegk?feature=shared', format='video/mp4')
 
 with tab3:
    st.write("### study knowledge")
-   st.video('https://youtu.be/_TeeNkU1fpY?feature=shared', format='video/mp4')
+   with col1:
+      st.video('https://youtu.be/_TeeNkU1fpY?feature=shared', format='video/mp4')
