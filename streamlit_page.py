@@ -7,11 +7,12 @@ st.write('## coding is very :red[_awesome_] :sunglasses:')
 st.divider()
 st.link_button("youtube", "https://www.youtube.com/@racoonByteotterBit/")
 tab1, tab2, tab3= st.tabs(["INTRO", "PROJECT", "STUDY"])
-
+col1, col2 = st.columns(2)
 
 with tab1:
    st.write("### hello otter!")
-   st.video('https://youtu.be/u52CGaPWk1M?feature=shared', format='video/mp4')
+   with col1:
+      st.video('https://youtu.be/u52CGaPWk1M?feature=shared', format='video/mp4')
 
 with tab2:
    st.write("### working hard with communication")
