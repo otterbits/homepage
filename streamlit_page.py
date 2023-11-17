@@ -6,7 +6,7 @@ st.write('## coding is very :red[_awesome_] :sunglasses:')
 
 st.divider()
 st.link_button("youtube", "https://www.youtube.com/@racoonByteotterBit/")
-tab1, tab2, tab3, tab4 = st.tabs(["INTRO", "PROJECT", "STUDY",])
+tab1, tab2, tab3= st.tabs(["INTRO", "PROJECT", "STUDY"])
 
 with tab1:
    st.write("### hello otter!")
