@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+st.set_page_config(layout="wide")
 st.markdown("<h1 style='text-align: center; color: green;'>Otterbit world</h1>", unsafe_allow_html=True)
 st.write('## coding is very :red[_awesome_] :sunglasses:')
 
